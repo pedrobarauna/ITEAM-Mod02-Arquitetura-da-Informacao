@@ -1,409 +1,112 @@
+# 🔍 Auditoria de Arquitetura da Informação
 
-# Atividade 01 — Auditoria Rápida do Site do ITEAM
-
-## 1. Identificação
-
-**Site analisado:** ITEAM — Instituto Tecnológico Educacional da Amazônia  
-**URL:** https://www.iteam.org.br/  
-**Tipo de site:** Institucional
-
-### Objetivo da análise
-
-Realizar uma auditoria rápida da Arquitetura da Informação do site, observando:
-
-- Organização das informações;
-- Rotulagem;
-- Navegação;
-- Encontrabilidade;
-- Clareza das informações;
-- Facilidade para encontrar cursos;
-- Facilidade para encontrar editais e processos seletivos;
-- Facilidade para encontrar informações institucionais importantes.
-
-A análise considera principalmente a perspectiva de um usuário que acessa o site para realizar uma tarefa.
+## 1. Identificação da Análise
+* **Site analisado:** ITEAM — Instituto Tecnológico Educacional da Amazônia
+* **URL:** [https://www.iteam.org.br/](https://www.iteam.org.br/)
+* **Tipo de site:** Institucional / Educacional
+* **Objetivo da análise:** Realizar uma auditoria rápida da Arquitetura da Informação e da Interface do Usuário (UI) do site. A análise foca na organização, navegação, encontrabilidade de tarefas essenciais (buscar cursos e editais) e na identificação de atritos visuais que prejudicam a experiência do usuário.
 
 ---
 
-## 2. Organização das informações
+## 2. Visão Geral: Arquitetura da Informação e Navegação
 
-O site apresenta uma estrutura organizada principalmente por **tópicos**, com categorias como:
+### Organização e Rotulagem
+O site apresenta uma estrutura organizada por tópicos institucionais (Educação, Inovação e Tecnologia, Consultoria, Sobre Nós, Periódicos, Novidades, Contato). 
+* **Ponto de atenção:** Essa organização reflete *o que a instituição é*, mas não está otimizada para *o que o usuário deseja fazer*. Rótulos cruciais para a conversão, como **"Cursos"**, **"Editais"**, **"Inscrições"** e **"Resultados"**, não aparecem de forma direta na navegação primária.
 
-- Educação;
-- Inovação e Tecnologia;
-- Consultoria;
-- Sobre Nós;
-- Periódicos;
-- Novidades;
-- Contato.
+### Navegação Desktop vs. Mobile
+* **Erro de Padrão:** Na versão para computadores (desktop), o site utiliza um menu "hambúrguer" que abre em tela cheia (comportamento típico de aplicativos mobile). Isso esconde as opções de navegação que poderiam estar visíveis horizontalmente na barra superior, forçando cliques extras e desorientando o usuário.
 
-Essa organização permite compreender as principais áreas de atuação da instituição.
-
-### Evidência
-
-![Página inicial do ITEAM](https://github.com/pedrobarauna/ITEAM-Mod02-Arquitetura-da-Informacao/blob/main/evidencias/atividde01/home.png)
-
-### Análise
-
-Apesar de a organização institucional ser compreensível, ela não está totalmente orientada às principais tarefas que o usuário deseja realizar.
-
-Por exemplo, um usuário que acessa o site com o objetivo de **encontrar um curso** precisa interpretar que a categoria correta é **Educação**.
-
-**Avaliação:** 🟡 Adequada, mas pode ser melhor orientada ao usuário.
+> **Evidência:**
+> ![Menu Mobile no Desktop](evidencias/atividade01/01-menu-mobile-desktop.jpg)
 
 ---
 
-## 3. Rotulagem
+## 3. Análise de Tarefas do Usuário
 
-Os principais rótulos encontrados na navegação são:
+### Tarefa A: Encontrar um Curso
+* **Atrito na jornada:** A informação existe, mas o caminho é oculto. O usuário precisa adivinhar que "Cursos" está dentro de "Educação". Além disso, os links de entrada para os cursos se dão por meio de dois banners no rodapé da seção que são muito escuros e se camuflam com o fundo, passando despercebidos.
 
-- Educação;
-- Inovação e Tecnologia;
-- Consultoria;
-- Sobre Nós;
-- Periódicos;
-- Novidades;
-- Contato.
+> **Evidência - Banners camuflados:**
+> ![Banners de cursos escondidos](evidencias/atividade01/02-banners-escondidos.jpg)
 
-Os termos são, em sua maioria, claros e compreensíveis para o usuário.
+* **Ponto Positivo:** Ao superar as barreiras de navegação e chegar à página interna do curso, o conteúdo é excelente. A organização em abas (Objetivo, Público Alvo, Grade Curricular, Carga Horária) é limpa e eficiente.
 
-### Evidência
+> **Evidência - Informações do Curso:**
+> ![Página interna do curso com abas](evidencias/atividade01/03-curso-abas.png)
 
-![Menu principal do ITEAM](../imagens/atividade-01/menu-navegacao.png)
+### Tarefa B: Encontrar Editais, Processos Seletivos e Resultados
+* **Atrito na jornada:** Não há uma área dedicada. O candidato precisa caçar essas informações na aba "Novidades", exigindo que ele interprete títulos genéricos de postagens para descobrir se é uma notícia comum, um edital ou uma retificação. Isso gera alta carga cognitiva.
 
-### Análise
+### Tarefa C: Informações Institucionais e Legais
+* **Contato (🟢 Bom):** A área "Fale Conosco" apresenta formulário e endereço físico de forma clara.
 
-Os rótulos utilizados possuem relação com os conteúdos apresentados.
+> **Evidência - Área de Contato:**
+> ![Formulário de Contato](evidencias/atividade01/04-fale-conosco.jpg)
 
-Entretanto, alguns rótulos importantes para as tarefas do usuário não aparecem diretamente na navegação.
-
-Por exemplo, **Cursos**, **Editais**, **Inscrições** e **Resultados** poderiam ser apresentados de forma mais direta.
-
-O problema, portanto, não está apenas na clareza dos rótulos existentes, mas também na ausência de rótulos relacionados às principais tarefas do usuário.
-
-**Avaliação:** 🟡 Razoável, com oportunidades de melhoria.
+* **Política de Privacidade (🔴 Ruim):** Não há um link de acesso rápido (geralmente posicionado no rodapé), dificultando o acesso a informações sobre tratamento de dados e LGPD.
 
 ---
 
-## 4. Navegação
+## 4. Interface, Layout e Erros Visuais (UI)
+Durante a auditoria, foram identificados problemas técnicos e de design que impactam a credibilidade da plataforma:
 
-O menu principal apresenta as principais áreas institucionais do ITEAM.
+1. **Problemas de Sobreposição (Z-index/Sticky Header):** O menu superior fixo não possui uma camada de fundo sólida. Ao rolar a página (scroll), os textos do site se sobrepõem ao logotipo e ao botão de menu, tornando a leitura impossível e transmitindo uma percepção de erro de desenvolvimento.
+> ![Erro de sobreposição no cabeçalho](evidencias/atividade01/05-erro-zindex.jpg)
 
-### Evidência
+2. **Páginas Incompletas (Dead Ends):** Algumas páginas de serviços (ex: "Consultoria em Processos na Indústria 4.0") estão em branco. O usuário clica, vê a imagem de cabeçalho e encontra um vazio, frustrando a intenção de busca.
+> ![Página incompleta sem conteúdo](evidencias/atividade01/06-pagina-incompleta.jpg)
 
-![Menu de navegação](../imagens/atividade-01/menu-navegacao.png)
+3. **Uso de Links Brutos e Saída do Domínio:** Na seção "Novidades", os editais e resultados exibem links crus do Google Drive em vez de botões amigáveis (ex: "Baixar PDF"). Além de ser esteticamente ruim, retira o usuário do ambiente do site.
+> ![Links do Drive crus](evidencias/atividade01/07-links-drive.jpg)
 
-### Pontos positivos
+4. **Desbalanceamento de Layout:** A seção de "Novidades" na página inicial consome uma porção desproporcional da tela. É uma lista excessivamente longa de cards que empurra o restante do conteúdo institucional para muito baixo, exigindo um scroll excessivo.
+> ![Layout desbalanceado na home](evidencias/atividade01/08-layout-desbalanceado.jpg)
 
-- Menu principal visível;
-- Categorias relativamente compreensíveis;
-- Acesso às principais áreas institucionais;
-- Acesso à área de contato.
-
-### Pontos de atenção
-
-As categorias estão mais relacionadas à estrutura da instituição do que às tarefas que o usuário deseja realizar.
-
-Um usuário pode acessar o site com objetivos como:
-
-- Encontrar um curso;
-- Verificar inscrições abertas;
-- Encontrar um edital;
-- Consultar um resultado;
-- Conhecer os requisitos de um curso.
-
-Essas tarefas não aparecem de maneira evidente na navegação principal.
-
-**Avaliação:** 🟡 Funcional, porém pouco orientada às tarefas do usuário.
+5. **Elementos Quebrados e Falta de CTAs:** Há ícones quebrados (exibindo texto alternativo) e blocos de texto flutuantes acompanhados de ilustrações, mas sem botões de Call-to-Action (CTA) para direcionar o usuário ao próximo passo.
+> ![Bloco solto sem botão de ação](evidencias/atividade01/09-falta-cta.jpg)
 
 ---
 
-## 5. Tarefa: encontrar um curso
+## 5. Resumo da Avaliação
 
-### Pergunta
-
-**Se eu fosse um usuário interessado em estudar no ITEAM, conseguiria encontrar facilmente os cursos disponíveis?**
-
-A página apresenta informações relacionadas à área de **Educação** e informa diferentes modalidades de ensino.
-
-### Evidência
-
-![Área de Educação](../imagens/atividade-01/educacao.png)
-
-### Análise
-
-A informação sobre os cursos existe, porém **Cursos** não aparece como uma opção principal do menu.
-
-O usuário precisa primeiro identificar que deve acessar **Educação** para encontrar as informações relacionadas aos cursos.
-
-Isso cria uma pequena barreira de encontrabilidade para usuários que acessam o site pela primeira vez.
-
-**Avaliação:** 🟡 Encontrabilidade razoável.
-
-### Sugestão
-
-Disponibilizar uma estrutura mais direta:
-
-```text
-Educação
-├── Cursos
-├── Graduação
-├── Pós-Graduação
-├── Capacitação
-└── Educação Empresarial
-```
+| Critério | Status | Observação Principal |
+| :--- | :---: | :--- |
+| **Organização por Tópicos** | 🟡 | Áreas divididas, mas orientadas à instituição e não à tarefa do usuário. |
+| **Integridade do Conteúdo** | 🔴 | Existência de páginas em branco/incompletas configurando "becos sem saída". |
+| **Apresentação de Links** | 🔴 | Links crus do Google Drive expostos na interface; retiram o usuário do site. |
+| **Hierarquia e Layout** | 🔴 | Rolagem longa dominada por cards de editais, soterrando outras seções da home. |
+| **Navegação Desktop** | 🔴 | Menu mobile "hambúrguer" ocupando a tela inteira desnecessariamente. |
+| **Encontrar Cursos** | 🟡 | Categorias difíceis de achar, embora a página final do curso seja muito boa. |
+| **Encontrar Editais** | 🔴 | Sem área própria; misturados em "Novidades" de forma confusa. |
+| **Contato** | 🟢 | Formulário e mapa fáceis de usar (apesar de distantes devido à rolagem). |
 
 ---
 
-### 6. Tarefa: encontrar um edital
+## 6. Conclusão e Plano de Ação
 
-### Pergunta
-Se eu quiser me inscrever em um curso, consigo encontrar rapidamente o edital correspondente?
+A auditoria demonstra que o site do ITEAM possui conteúdo de valor, mas sofre com **falhas na arquitetura de informação e na execução do front-end**. O problema central não é a ausência de dados, mas o esforço imposto ao usuário para acessá-los.
 
-### Análise
-Na navegação principal não existe uma categoria claramente identificada como Editais ou Processos Seletivos.
+### 🛠️ Propostas de Melhoria Imediata:
+1. **Correção de Bugs Visuais:** Arrumar o *z-index* do menu superior para evitar sobreposição de textos, substituir imagens quebradas e preencher (ou ocultar) páginas em branco.
+2. **Refatoração da Navegação:** Remover o menu em tela cheia no desktop e adotar uma barra de navegação horizontal explícita.
+3. **Estrutura Orientada a Tarefas:** Criar acessos diretos para **"Cursos"** e **"Processos Seletivos / Editais"** no menu principal.
+4. **Melhoria de UI nos Downloads:** Substituir os links longos do Google Drive por botões interativos de download ("Baixar Edital"), mantendo, se possível, a visualização dentro do próprio site.
+5. **Otimização da Home:** Reduzir a quantidade de cards exibidos na seção "Novidades" da página inicial (ex: mostrar apenas os 3 mais recentes e adicionar um botão "Ver todos").
 
-Entretanto, o site possui publicações relacionadas a editais, resultados e processos seletivos.
-
-### Evidência
-(Adicionar evidência visual aqui, se houver)
-
-### Análise Adicional
-Esse é um dos principais pontos identificados na auditoria.
-
-A informação pode existir no site, mas não está organizada de maneira suficientemente evidente de acordo com a tarefa do usuário.
-
-Um usuário interessado em ingressar em um curso poderia procurar naturalmente por:
-
-Educação → Editais
-
-ou:
-
-Educação → Processos Seletivos
-
-Essa relação não está clara na estrutura principal.
-
-Avaliação: 🔴 Encontrabilidade baixa.
-
-### Sugestão
-Criar uma área específica para processos seletivos:
+**Sugestão de Nova Estrutura (Sitemap):**
 ```text
-Processos Seletivos
-├── Editais Abertos
-├── Editais Encerrados
-├── Inscrições
-├── Resultados
-└── Retificações
-```
-
-7. Tarefa: encontrar inscrições abertas
-Pergunta
-O usuário consegue descobrir rapidamente quais cursos estão com inscrições abertas?
-
-Análise
-Não existe um acesso claramente destacado para Inscrições Abertas na navegação principal.
-
-Um usuário pode precisar explorar diferentes áreas do site para descobrir se existe algum processo seletivo em andamento.
-
-Isso aumenta o esforço necessário para realizar uma tarefa importante.
-
-Avaliação: 🔴 Encontrabilidade baixa.
-
-Sugestão
-Criar uma área de destaque na página inicial:
-```text
-Inscrições Abertas
-Confira os cursos com processos seletivos abertos.
-[Ver cursos disponíveis →]
-````
-
-8. Tarefa: encontrar resultados
-Pergunta
-Depois de realizar uma inscrição, o usuário consegue encontrar facilmente o resultado?
-
-Análise
-O site apresenta publicações relacionadas a resultados de processos seletivos.
-
-Porém, editais, resultados, retificações e outros comunicados podem aparecer dentro do mesmo conjunto de publicações.
-
-Isso exige que o usuário interprete os títulos para descobrir qual documento corresponde ao que procura.
-
-Avaliação: 🔴 Pode gerar dificuldade de encontrabilidade.
-
-Sugestão
-Organizar os conteúdos por tipo:
-
-```text
-Processos Seletivos
-├── Editais
-├── Resultados
-├── Retificações
-└── Comunicados
-````
-9. Novidades
-O site possui uma seção chamada Novidades do ITEAM.
-
-Evidência
-(Adicionar evidência visual aqui, se houver)
-
-Análise
-A existência de uma área destinada às novidades é positiva.
-
-Porém, a seção não deixa claro para o usuário se deve procurar nela informações como:
-```text
-
-Editais;
-Processos seletivos;
-Resultados;
-Inscrições;
-Comunicados.
-````
-Além disso, uma área sem informações recentes pode transmitir a impressão de que o site não está sendo atualizado.
-
-Avaliação: 🟡 Necessita atenção.
-
-Sugestão
-Separar as informações em categorias mais específicas:
-
-```text
-Notícias
-Editais
-Processos Seletivos
-Resultados
-````
-
-10. Política de Privacidade
-Pergunta
-É possível encontrar a Política de Privacidade em menos de 3 cliques?
-
-Durante a auditoria, não foi identificado um acesso claramente destacado para a Política de Privacidade na página inicial.
-
-Evidência
-(Adicionar evidência visual aqui, se houver)
-
-Análise
-A Política de Privacidade é uma informação institucional importante, principalmente em um site que disponibiliza formulários para coleta de dados.
-
-A ausência de um acesso evidente dificulta a encontrabilidade dessa informação.
-
-Avaliação: 🔴 Necessita melhoria.
-
-Sugestão
-Adicionar no rodapé:
-```text
-Política de Privacidade | Termos de Uso | Acessibilidade | Contato
-````
-
-11. Contato
-A área de contato apresenta formulário com:
-
-Nome;
-
-Telefone;
-
-E-mail;
-
-Mensagem.
-
-Também apresenta o endereço físico da instituição.
-
-Evidência
-(Adicionar evidência visual aqui, se houver)
-
-Análise
-Nesse aspecto, o site apresenta uma organização adequada.
-
-O usuário consegue identificar facilmente onde deve entrar em contato com a instituição.
-
-Avaliação: 🟢 Boa.
-
-12. Resumo da auditoria
-Critério	Avaliação	Observação
-Organização por tópicos	🟢 Boa	As áreas institucionais estão bem divididas
-Orientação por tarefas	🔴 Baixa	Poucos acessos são orientados às tarefas do usuário
-Rotulagem	🟡 Razoável	Os rótulos são claros, mas faltam categorias importantes
-Navegação	🟡 Razoável	Funcional, porém pouco orientada a tarefas
-Encontrar cursos	🟡 Razoável	É necessário identificar que cursos estão em Educação
-Encontrar editais	🔴 Difícil	Não existe acesso principal claramente identificado
-Encontrar inscrições	🔴 Difícil	Não há destaque evidente para essa tarefa
-Encontrar resultados	🔴 Difícil	Informações podem exigir interpretação do usuário
-Política de Privacidade	🔴 Difícil	Não foi localizado acesso claramente destacado
-Contato	🟢 Boa	Formulário e endereço facilmente identificáveis
-13. Principais problemas encontrados
-🔴 1. Estrutura pouco orientada às tarefas: O site apresenta principalmente as áreas da instituição, mas não destaca as principais tarefas que um usuário pode querer realizar.
-
-🔴 2. Cursos não possuem destaque principal: O usuário precisa interpretar que Educação é o caminho para encontrar os cursos.
-
-🔴 3. Editais não possuem uma categoria principal: Uma informação importante para quem deseja ingressar em um curso não está claramente representada na navegação principal.
-
-🔴 4. Processos seletivos e resultados: Editais, resultados e retificações podem exigir interpretação do usuário para identificar o conteúdo desejado.
-
-🔴 5. Política de Privacidade: Não existe um acesso claramente destacado na página inicial.
-
-🟡 6. Novidades: A seção existe, mas não deixa claro que tipo de informação o usuário deve procurar nela.
-
-14. Proposta de melhoria
-Uma estrutura mais orientada ao usuário poderia ser:
-
-Plaintext
 INÍCIO
-├── EDUCAÇÃO
-│   ├── Cursos
-│   ├── Graduação
+├── EDUCAÇÃO (Com submenu expansível)
+│   ├── Cursos de Graduação
 │   ├── Pós-Graduação
-│   ├── Capacitação
-│   └── Educação Empresarial
-│
-├── PROCESSOS SELETIVOS
+│   └── Capacitação
+├── PROCESSOS SELETIVOS (Nova aba prioritária)
 │   ├── Inscrições Abertas
 │   ├── Editais
-│   ├── Resultados
-│   └── Retificações
-│
+│   └── Resultados
 ├── INOVAÇÃO E TECNOLOGIA
-│
 ├── CONSULTORIA
-│
 ├── SOBRE O ITEAM
-│
-├── PERIÓDICOS
-│
-├── NOTÍCIAS
-│
+├── NOTÍCIAS / PERIÓDICOS
 └── CONTATO
-Essa estrutura mantém as áreas institucionais existentes, mas acrescenta acessos orientados às principais tarefas dos usuários.
-
-15. Conclusão
-A auditoria demonstra que o site do ITEAM possui informações relevantes e uma estrutura institucional compreensível.  
-TXT
-
-Entretanto, quando analisado pela perspectiva do usuário, principalmente de um possível aluno, existem dificuldades para encontrar algumas informações importantes.  
-TXT
-
-O principal problema identificado não é necessariamente a ausência de informação, mas a dificuldade de encontrar a informação certa no momento em que o usuário precisa dela.  
-TXT
-
-Para um usuário interessado em estudar, o caminho esperado seria:
-
-Plaintext
-Quero estudar
-      ↓
-Encontrar um curso
-      ↓
-Ver informações do curso
-      ↓
-Encontrar o edital
-      ↓
-Verificar as inscrições
-      ↓
-Realizar a inscrição
-      ↓
-Consultar o resultado
-Essa sequência de tarefas não está representada de forma evidente na estrutura atual do site.  
-TXT
-
-Resultado geral
-🟡 Arquitetura da Informação funcional, porém com oportunidades significativas de melhoria em encontrabilidade e orientação por tarefas.
-
-**🟡 Arquitetura da Informação funcional, porém com oportunidades significativas de melhoria em encontrabilidade e orientação por tarefas.**
-atividade-01.md
-Exibindo atividade-01.md.
