@@ -13,8 +13,8 @@ Realizar uma análise comparativa de usabilidade, Arquitetura da Informação e 
 *   **Poluição Visual:** Baixa. Banners de publicidade existem, mas estão bem delimitados em blocos horizontais que não se misturam com o conteúdo jornalístico.
 
 > **Evidências — Primeira Dobra (Home Web e Mobile):**
-> ![Home G1 Web](evidencias/atividade02/01-home-g1-web.jpg)
-> ![Home G1 Mobile](evidencias/atividade02/03-home-g1-mobile.jpg)
+> ![Home G1 e R7 Web](evidencias/atividade02/01-home-g1-r7.png)
+
 
 ### O Modelo R7 (Foco em Módulos e Retenção)
 *   **Web e Mobile:** O R7 opta por um layout modular denso. A forte presença das cores da marca (azul e amarelo) em fundos e faixas concorre diretamente com a atenção das fotos das notícias.
