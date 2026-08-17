@@ -40,7 +40,7 @@ Essa organização permite compreender as principais áreas de atuação da inst
 
 ### Evidência
 
-![Página inicial do ITEAM](../imagens/atividade-01/home-site.png)
+![Página inicial do ITEAM](../documentos/atividade01/home.png)
 
 ### Análise
 
