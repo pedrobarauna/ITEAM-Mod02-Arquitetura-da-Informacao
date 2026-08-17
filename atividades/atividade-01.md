@@ -20,6 +20,9 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 > **Evidência:**
 > ![Menu Mobile no Desktop](../evidencias/atividade01/01-menu-mobile-desktop.png)
 
+### Ausência de Sistema de Busca (Search)
+* **Falha Crítica de Encontrabilidade:** O site não possui nenhum campo de pesquisa global (ícone de lupa ou barra de busca) no cabeçalho, no menu ou no rodapé. Em sites institucionais complexos, quando a arquitetura da informação falha em guiar o usuário, a barra de busca atua como um sistema de recuperação essencial. Sem ela, o usuário que não encontra um edital ou curso pela navegação comum é forçado a abandonar a página.
+
 ---
 
 ## 3. Análise de Tarefas do Usuário
@@ -80,6 +83,7 @@ Durante a auditoria, foram identificados problemas técnicos e de design que imp
 | **Encontrar Cursos** | 🟡 | Categorias difíceis de achar, embora a página final do curso seja muito boa. |
 | **Encontrar Editais** | 🔴 | Sem área própria; misturados em "Novidades" de forma confusa. |
 | **Contato** | 🟢 | Formulário e mapa fáceis de usar (apesar de distantes devido à rolagem). |
+| **Sistema de Busca (Search)** | 🔴 | Inexistente. Remove a principal rota alternativa de encontrabilidade do usuário. |
 
 ---
 
@@ -93,6 +97,7 @@ A auditoria demonstra que o site do ITEAM possui conteúdo de valor, mas sofre c
 3. **Estrutura Orientada a Tarefas:** Criar acessos diretos para **"Cursos"** e **"Processos Seletivos / Editais"** no menu principal.
 4. **Melhoria de UI nos Downloads:** Substituir os links longos do Google Drive por botões interativos de download ("Baixar Edital"), mantendo, se possível, a visualização dentro do próprio site.
 5. **Otimização da Home:** Reduzir a quantidade de cards exibidos na seção "Novidades" da página inicial (ex: mostrar apenas os 3 mais recentes e adicionar um botão "Ver todos").
+6. **Implementação de Busca Global:** Adicionar um campo de pesquisa visível no cabeçalho (`header`) em todas as páginas, permitindo que os usuários encontrem cursos, editais e notícias diretamente por palavras-chave.
 
 **Sugestão de Nova Estrutura (Sitemap):**
 ```text
