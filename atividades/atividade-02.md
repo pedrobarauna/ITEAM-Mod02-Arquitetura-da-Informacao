@@ -1,4 +1,4 @@
-# 📊 Atividade 02 — Análise Comparativa de UX/UI: G1 vs. R7
+# 📊 Atividade 02 — Análise Comparativa: G1 vs. R7
 
 ## 1. Objetivo da Análise
 Realizar uma análise comparativa de usabilidade, Arquitetura da Informação e Design de Interação entre os portais de notícias **G1** e **R7**. A avaliação considera layout, hierarquia estrutural, eficiência dos sistemas de busca, poluição visual e adaptação responsiva (Desktop e Mobile).
