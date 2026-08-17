@@ -13,7 +13,7 @@ Realizar uma análise comparativa de usabilidade, Arquitetura da Informação e 
 *   **Poluição Visual:** Baixa. Banners de publicidade existem, mas estão bem delimitados em blocos horizontais que não se misturam com o conteúdo jornalístico.
 
 > **Evidências — Primeira Dobra (Home Web e Mobile):**
-> ![Home G1 e R7 Web](evidencias/atividade02/01-home-g1-r7.png)
+> ![Home G1 e R7 Web](../evidencias/atividade02/01-home-g1-r7.png)
 
 
 ### O Modelo R7 (Foco em Módulos e Retenção)
@@ -22,8 +22,8 @@ Realizar uma análise comparativa de usabilidade, Arquitetura da Informação e 
 *   **Poluição Visual:** Alta. A carga cognitiva é maior devido à grande quantidade de *thumbnails* (miniaturas), blocos coloridos e divisão excessiva de seções.
 
 > **Evidências — Alta densidade de informações (Home Web e Mobile):**
-> ![Home R7 Web](evidencias/atividade02/02-home-r7-web.jpg)
-> ![Home R7 Mobile](evidencias/atividade02/04-home-r7-mobile.jpg)
+> ![Home R7 Web](../evidencias/atividade02/02-home-r7-web.jpg)
+> ![Home R7 Mobile](../evidencias/atividade02/04-home-r7-mobile.jpg)
 
 ---
 
@@ -36,16 +36,16 @@ Neste ponto, encontra-se a diferença estrutural mais crítica entre os dois por
 *   **Rotulagem:** Clara e categorizada exclusivamente por editorias jornalísticas (letras minúsculas).
 
 > **Evidências — Menu bem estruturado e visível:**
-> ![Menu G1 Web](evidencias/atividade02/07-menu-g1-web.jpg)
-> ![Menu G1 Mobile](evidencias/atividade02/05-menu-g1-mobile.jpg)
+> ![Menu G1 Web](../evidencias/atividade02/07-menu-g1-web.jpg)
+> ![Menu G1 Mobile](../evidencias/atividade02/05-menu-g1-mobile.jpg)
 
 ### R7: Quebra de Padrão e Fricção ("Menu Fantasma")
 *   Uma falha grave de usabilidade foi identificada na página inicial: **não há botão de menu e nem campo de busca visíveis**.
 *   **Erro de Arquitetura:** Eles só aparecem quando o usuário clica e abre uma notícia específica. Isso quebra o modelo mental do usuário, que espera encontrar a navegação principal no cabeçalho (*header*) da Home. Além disso, a rotulagem mistura jornalismo factual com entretenimento (ex: novelas e podcasts no mesmo nível hierárquico).
 
 > **Evidências — Menu que só aparece dentro da matéria (Web e Mobile):**
-> ![Menu R7 Web](evidencias/atividade02/08-menu-r7-web-noticia.jpg)
-> ![Menu R7 Mobile](evidencias/atividade02/06-menu-r7-mobile-noticia.jpg)
+> ![Menu R7 Web](../evidencias/atividade02/08-menu-r7-web-noticia.jpg)
+> ![Menu R7 Mobile](../evidencias/atividade02/06-menu-r7-mobile-noticia.jpg)
 
 ---
 
@@ -56,9 +56,9 @@ O G1 apresenta um sistema de busca robusto e de fácil localização.
 *   **Filtros Avançados:** O portal não apenas entrega resultados precisos, mas oferece refinamento por formato (Notícias, Vídeos, Fotos) e período temporal. A página de resultados foca em títulos claros e resumos curtos.
 
 > **Evidências — Fluxo de Pesquisa e Filtros no G1:**
-> ![Busca G1 Web](evidencias/atividade02/09-busca-g1-web.jpg)
-> ![Filtros Mobile G1](evidencias/atividade02/10-busca-g1-mobile.jpg)
-> ![Resultados Mobile G1](evidencias/atividade02/11-resultado-g1-mobile.jpg)
+> ![Busca G1 Web](../evidencias/atividade02/09-busca-g1-web.jpg)
+> ![Filtros Mobile G1](../evidencias/atividade02/10-busca-g1-mobile.jpg)
+> ![Resultados Mobile G1](../evidencias/atividade02/11-resultado-g1-mobile.jpg)
 
 ### O Fracasso do R7
 *   **Impossibilidade de Teste Direto:** Devido ao "sumiço" do cabeçalho na página inicial, acessar o campo de busca exige um esforço desnecessário (entrar em uma notícia qualquer primeiro), frustrando o fluxo de usuários que já chegam ao portal com o objetivo de pesquisar.
@@ -73,7 +73,7 @@ O G1 apresenta um sistema de busca robusto e de fácil localização.
 *   **Publicidade:** Banners bem distribuídos, sem quebrar bruscamente a jornada de leitura.
 
 > **Evidência — Estrutura de matéria no G1:**
-> ![Página da Notícia G1](evidencias/atividade02/12-noticia-g1-web.jpg)
+> ![Página da Notícia G1](../evidencias/atividade02/12-noticia-g1-web.jpg)
 
 ### R7: Poluição Visual e "Dark Patterns"
 *   **Carga Cognitiva e Ads:** A página é agressivamente poluída. Banners imensos e pop-ups interrompem a leitura. Na versão mobile, a navegação torna-se frustrante pois a publicidade domina e empurra o conteúdo útil.
@@ -81,7 +81,7 @@ O G1 apresenta um sistema de busca robusto e de fácil localização.
 *   **Ponto Positivo (Acessibilidade):** Traz uma barra nativa no topo da matéria para ajuste de tamanho da fonte e contraste da tela.
 
 > **Evidência — Poluição e botão de interrupção de texto no R7:**
-> ![Página da Notícia R7](evidencias/atividade02/13-noticia-r7-web.jpg)
+> ![Página da Notícia R7](../evidencias/atividade02/13-noticia-r7-web.jpg)
 
 ---
 
