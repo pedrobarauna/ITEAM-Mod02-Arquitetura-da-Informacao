@@ -28,7 +28,7 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 * **Atrito na jornada:** A informação existe, mas o caminho é oculto. O usuário precisa adivinhar que "Cursos" está dentro de "Educação". Além disso, os links de entrada para os cursos se dão por meio de dois banners no rodapé da seção que são muito escuros e se camuflam com o fundo, passando despercebidos.
 
 > **Evidência - Banners camuflados:**
-> ![Banners de cursos escondidos](../evidencias/atividade01/02-banners-escondidos.png)
+> ![Banners de cursos escondidos](../evidencias/atividade01/02a-banners-escondidos.gif)
 
 * **Ponto Positivo:** Ao superar as barreiras de navegação e chegar à página interna do curso, o conteúdo é excelente. A organização em abas (Objetivo, Público Alvo, Grade Curricular, Carga Horária) é limpa e eficiente.
 
