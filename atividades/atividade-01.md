@@ -18,7 +18,7 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 * **Erro de Padrão:** Na versão para computadores (desktop), o site utiliza um menu "hambúrguer" que abre em tela cheia (comportamento típico de aplicativos mobile). Isso esconde as opções de navegação que poderiam estar visíveis horizontalmente na barra superior, forçando cliques extras e desorientando o usuário.
 
 > **Evidência:**
-> ![Menu Mobile no Desktop](evidencias/atividade01/01-menu-mobile-desktop.png)
+> ![Menu Mobile no Desktop](../evidencias/atividade01/01-menu-mobile-desktop.png)
 
 ---
 
@@ -28,12 +28,12 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 * **Atrito na jornada:** A informação existe, mas o caminho é oculto. O usuário precisa adivinhar que "Cursos" está dentro de "Educação". Além disso, os links de entrada para os cursos se dão por meio de dois banners no rodapé da seção que são muito escuros e se camuflam com o fundo, passando despercebidos.
 
 > **Evidência - Banners camuflados:**
-> ![Banners de cursos escondidos](evidencias/atividade01/02-banners-escondidos.png)
+> ![Banners de cursos escondidos](../evidencias/atividade01/02-banners-escondidos.png)
 
 * **Ponto Positivo:** Ao superar as barreiras de navegação e chegar à página interna do curso, o conteúdo é excelente. A organização em abas (Objetivo, Público Alvo, Grade Curricular, Carga Horária) é limpa e eficiente.
 
 > **Evidência - Informações do Curso:**
-> ![Página interna do curso com abas](evidencias/atividade01/03-curso-abas.png)
+> ![Página interna do curso com abas](../evidencias/atividade01/03-curso-abas.png)
 
 ### Tarefa B: Encontrar Editais, Processos Seletivos e Resultados
 * **Atrito na jornada:** Não há uma área dedicada. O candidato precisa caçar essas informações na aba "Novidades", exigindo que ele interprete títulos genéricos de postagens para descobrir se é uma notícia comum, um edital ou uma retificação. Isso gera alta carga cognitiva.
@@ -42,7 +42,7 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 * **Contato (🟢 Bom):** A área "Fale Conosco" apresenta formulário e endereço físico de forma clara.
 
 > **Evidência - Área de Contato:**
-> ![Formulário de Contato](evidencias/atividade01/04-fale-conosco.png)
+> ![Formulário de Contato](../evidencias/atividade01/04-fale-conosco.png)
 
 * **Política de Privacidade (🔴 Ruim):** Não há um link de acesso rápido (geralmente posicionado no rodapé), dificultando o acesso a informações sobre tratamento de dados e LGPD.
 
@@ -52,19 +52,19 @@ O site apresenta uma estrutura organizada por tópicos institucionais (Educaçã
 Durante a auditoria, foram identificados problemas técnicos e de design que impactam a credibilidade da plataforma:
 
 1. **Problemas de Sobreposição (Z-index/Sticky Header):** O menu superior fixo não possui uma camada de fundo sólida. Ao rolar a página (scroll), os textos do site se sobrepõem ao logotipo e ao botão de menu, tornando a leitura impossível e transmitindo uma percepção de erro de desenvolvimento.
-> ![Erro de sobreposição no cabeçalho](evidencias/atividade01/05-erro-zindex.png)
+> ![Erro de sobreposição no cabeçalho](../evidencias/atividade01/05-erro-zindex.png)
 
 2. **Páginas Incompletas (Dead Ends):** Algumas páginas de serviços (ex: "Consultoria em Processos na Indústria 4.0") estão em branco. O usuário clica, vê a imagem de cabeçalho e encontra um vazio, frustrando a intenção de busca.
-> ![Página incompleta sem conteúdo](evidencias/atividade01/06-pagina-incompleta.png)
+> ![Página incompleta sem conteúdo](../evidencias/atividade01/06-pagina-incompleta.png)
 
 3. **Uso de Links Brutos e Saída do Domínio:** Na seção "Novidades", os editais e resultados exibem links crus do Google Drive em vez de botões amigáveis (ex: "Baixar PDF"). Além de ser esteticamente ruim, retira o usuário do ambiente do site.
-> ![Links do Drive crus](evidencias/atividade01/07-links-drive.png)
+> ![Links do Drive crus](../evidencias/atividade01/07-links-drive.png)
 
 4. **Desbalanceamento de Layout:** A seção de "Novidades" na página inicial consome uma porção desproporcional da tela. É uma lista excessivamente longa de cards que empurra o restante do conteúdo institucional para muito baixo, exigindo um scroll excessivo.
-> ![Layout desbalanceado na home](evidencias/atividade01/08-layout-desbalanceado.png)
+> ![Layout desbalanceado na home](../evidencias/atividade01/08-layout-desbalanceado.png)
 
 5. **Elementos Quebrados e Falta de CTAs:** Há ícones quebrados (exibindo texto alternativo) e blocos de texto flutuantes acompanhados de ilustrações, mas sem botões de Call-to-Action (CTA) para direcionar o usuário ao próximo passo.
-> ![Bloco solto sem botão de ação](evidencias/atividade01/09-falta-cta.png)
+> ![Bloco solto sem botão de ação](../evidencias/atividade01/09-falta-cta.png)
 
 ---
 
