@@ -40,7 +40,7 @@ Essa organização permite compreender as principais áreas de atuação da inst
 
 ### Evidência
 
-![Página inicial do ITEAM](https://github.com/pedrobarauna/ITEAM-Mod02-Arquitetura-da-Informacao/blob/main/documentos/atividde01/home.png)
+![Página inicial do ITEAM](https://github.com/pedrobarauna/ITEAM-Mod02-Arquitetura-da-Informacao/blob/main/evidencias/atividde01/home.png)
 
 ### Análise
 
